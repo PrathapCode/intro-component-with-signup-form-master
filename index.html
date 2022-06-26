@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="left">
+      <h1>Learn to code by watching others</h1>
+      <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable.</p>
+    </div>
+
+    <div id="rgt" class="right">
+
+      <div class="bluebutton">
+ 
+        <p><span>Try it free 7 days</span> then $20/mo. thereafter</p>
+
+      </div>
+
+      <div class="mainbox">
+
+        <input id="one" type="text" placeholder="First Name"><br>
+        <img class="imageerror error" src="/images/icon-error.svg" alt="" id="img1">
+        <div class="texterror error" id="firsterror">First Name cannot be false</div>
+
+        <input id="two" type="text" placeholder="Last Name"><br>
+        <img class="imageerror error" src="/images/icon-error.svg" alt="" id="img2">
+        <div class="texterror error" id="seconderror">Last Name cannot be false</div>
+
+        <input id="three" type="text" placeholder="Email Address"><br>
+        <img class="imageerror error" src="/images/icon-error.svg" alt="" id="img3">
+        <div class="texterror error" id="mailerror">Looks like this is not an email</div>
+
+        <input id="four" type="text" placeholder="Password"><br>
+        <img class="imageerror error" src="/images/icon-error.svg" alt="" id="img4">
+        <div class="texterror error" id="passworderror">Password cannot be empty</div>
+
+        <div class="greenbutton" onclick="error()">
+          <p>CLAIM YOUR FREE TRIAL</p>
+        </div>
+  
+        <div class="terms">
+          <p>By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="/script.js"></script>
+
+</body>
+</html>
